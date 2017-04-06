@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="279" failures="8" name="TestSuite" time="55.094" errors="0" skipped="271">
+  <properties>
+    <property name="idea.version" value="2016.3.5"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Vyacheslav\IdeaProjects\1234"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="idea.launcher.port" value="7534"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Vyacheslav\IdeaProjects\1234"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\VYACHE~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Program Files\Maven\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;D:\Gecko;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Maven\bin;C:\Program Files\Java\jdk1.8.0_121\bin;D:\ChromeDriver;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Vyacheslav"/>
+    <property name="user.timezone" value="GMT+03:00"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="idea.launcher.bin.path" value="C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.3.4\bin"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Vyacheslav"/>
+    <property name="java.class.path" value="C:\Program Files\Maven\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.3.4\lib\idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=2016.3.5 install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ru"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\Maven"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.selenium.test.testng.tests.PageObjectTest" name="testSearch" time="0.42">
+    <failure message="org.openqa.selenium.remote.service.DriverCommandExecutor cannot be cast to org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor" type="java.lang.ClassCastException">java.lang.ClassCastException: org.openqa.selenium.remote.service.DriverCommandExecutor cannot be cast to org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:325)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createFirefoxDriver(WebDriverFactory.java:191)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:50)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:240)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:113)
+	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:136)
+	at com.codeborne.selenide.impl.Navigator.navigateToAbsoluteUrl(Navigator.java:69)
+	at com.codeborne.selenide.impl.Navigator.open(Navigator.java:32)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:82)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:151)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:132)
+	at com.selenium.test.testng.tests.PageObjectTest.testSearch(PageObjectTest.java:23)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@6ed3ef1
+ScreenShot method called
+</system-out>
+    <system-err>��� 03, 2017 4:44:50 PM com.codeborne.selenide.webdriver.WebDriverFactory createFirefoxDriver
+INFO: Firefox 48+ is currently not supported by Selenium Firefox driver. Use browser=marionette with geckodriver, when using it.
+SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+��� 03, 2017 4:44:50 PM com.codeborne.selenide.impl.ScreenShotLaboratory takeScreenShotAsFile
+WARNING: Cannot take screenshot because browser is not started
+</system-err>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestAllFields" name="befClass" time="0.43">
+    <failure message="org.openqa.selenium.remote.service.DriverCommandExecutor cannot be cast to org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor" type="java.lang.ClassCastException">java.lang.ClassCastException: org.openqa.selenium.remote.service.DriverCommandExecutor cannot be cast to org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:325)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createFirefoxDriver(WebDriverFactory.java:191)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:50)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:240)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:113)
+	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:136)
+	at com.codeborne.selenide.impl.Navigator.navigateToAbsoluteUrl(Navigator.java:69)
+	at com.codeborne.selenide.impl.Navigator.open(Navigator.java:32)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:82)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:56)
+	at com.selenium.test.testng.tests.odsTestReestr.TestProcedures.autorisationUser(TestProcedures.java:96)
+	at com.selenium.test.testng.tests.Checks.TestAllFields.befClass(TestAllFields.java:19)
+</failure>
+    <system-err>��� 03, 2017 4:44:50 PM com.codeborne.selenide.webdriver.WebDriverFactory createFirefoxDriver
+INFO: Firefox 48+ is currently not supported by Selenium Firefox driver. Use browser=marionette with geckodriver, when using it.
+</system-err>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestAllFields" name="befTest" time="0.43">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestAllFields" name="Improvement_Territory_All_Fields" time="0.43">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befClass" time="0.44">
+    <failure message="org.openqa.selenium.remote.service.DriverCommandExecutor cannot be cast to org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor" type="java.lang.ClassCastException">java.lang.ClassCastException: org.openqa.selenium.remote.service.DriverCommandExecutor cannot be cast to org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:325)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createFirefoxDriver(WebDriverFactory.java:191)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:50)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:240)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:113)
+	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:136)
+	at com.codeborne.selenide.impl.Navigator.navigateToAbsoluteUrl(Navigator.java:69)
+	at com.codeborne.selenide.impl.Navigator.open(Navigator.java:32)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:82)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:56)
+	at com.selenium.test.testng.tests.Checks.TestProcedures.autorisationUser(TestProcedures.java:98)
+	at com.selenium.test.testng.tests.Checks.TestRequiredParameters.befClass(TestRequiredParameters.java:26)
+</failure>
+    <system-err>��� 03, 2017 4:44:50 PM com.codeborne.selenide.webdriver.WebDriverFactory createFirefoxDriver
+INFO: Firefox 48+ is currently not supported by Selenium Firefox driver. Use browser=marionette with geckodriver, when using it.
+</system-err>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="improvementTerritory1" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredBoardStone" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersBuilding" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersCarriageway" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersContainer" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersDts" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersEnvironmentProtection" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersFencing" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersFlowersGarden" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersFunctionality" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersLampposts" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersLawn" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersLawns" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersLittleForm" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersMAF" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersManholes" time="0.44">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersMargin" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersODH" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersOtherEnginConstruct" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersOtherFlatBuilding" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersPlanarStructure" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersPpi" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersRelief" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersRoadMark" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersRoadSigns" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersShrubs" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersSidewalks" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersStops" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersStoragePlace" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersTechPlace" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersTrafficLight" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersTram_rails" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersTrees" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="befTest" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="requiredParametersTrolleybusContNetwork" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestRequiredParameters" name="clearCache" time="0.45">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.SimpleTest" name="testFillGoogleForm" time="0.01">
+    <failure message="org.openqa.selenium.remote.service.DriverCommandExecutor cannot be cast to org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor" type="java.lang.ClassCastException">java.lang.ClassCastException: org.openqa.selenium.remote.service.DriverCommandExecutor cannot be cast to org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:325)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createFirefoxDriver(WebDriverFactory.java:191)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:50)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:240)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:113)
+	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:136)
+	at com.codeborne.selenide.impl.Navigator.navigateToAbsoluteUrl(Navigator.java:69)
+	at com.codeborne.selenide.impl.Navigator.open(Navigator.java:32)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:82)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:56)
+	at com.selenium.test.testng.tests.SimpleTest.testFillGoogleForm(SimpleTest.java:25)
+</failure>
+    <system-out>ScreenShot method called
+</system-out>
+    <system-err>��� 03, 2017 4:44:50 PM com.codeborne.selenide.webdriver.WebDriverFactory createFirefoxDriver
+INFO: Firefox 48+ is currently not supported by Selenium Firefox driver. Use browser=marionette with geckodriver, when using it.
+��� 03, 2017 4:44:50 PM com.codeborne.selenide.impl.ScreenShotLaboratory takeScreenShotAsFile
+WARNING: Cannot take screenshot because browser is not started
+</system-err>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befClass" time="0.02">
+    <failure message="org.openqa.selenium.remote.service.DriverCommandExecutor cannot be cast to org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor" type="java.lang.ClassCastException">java.lang.ClassCastException: org.openqa.selenium.remote.service.DriverCommandExecutor cannot be cast to org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:325)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createFirefoxDriver(WebDriverFactory.java:191)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:50)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:240)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:113)
+	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:136)
+	at com.codeborne.selenide.impl.Navigator.navigateToAbsoluteUrl(Navigator.java:69)
+	at com.codeborne.selenide.impl.Navigator.open(Navigator.java:32)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:82)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:56)
+	at com.selenium.test.testng.tests.odsTestReestr.TestProcedures.autorisationUser(TestProcedures.java:96)
+	at com.selenium.test.testng.tests.Checks.TestNullParams.befClass(TestNullParams.java:24)
+</failure>
+    <system-err>��� 03, 2017 4:44:50 PM com.codeborne.selenide.webdriver.WebDriverFactory createFirefoxDriver
+INFO: Firefox 48+ is currently not supported by Selenium Firefox driver. Use browser=marionette with geckodriver, when using it.
+</system-err>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="boardStone" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="buildingObject" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="carriagewayObject" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="containerObject" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="dtsObject" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="environmentProtection" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="fencingObject" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="functionalityObject" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="improvementTerritory1" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="lampPosts" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="lawnsObject" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="littleForm" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="mafObject" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="manholesObject" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="marginObject" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="odhObject1" time="0.02">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="otherEnginConstruct" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="otherFlatBuilding" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="planarStructure" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="ppiObject" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="reliefObject" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="roadSigns_10" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="roadmarkObject" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="shrubsObject" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="sidewalksObject" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="stopsObject" time="0.03">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.093">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="storagePlace" time="0.094">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.106">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="trafficLight" time="0.106">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.106">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="tramRails" time="0.106">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.106">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="treesObject" time="0.106">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="befTest" time="0.106">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestNullParams" name="trolleybusContNetwork" time="0.106">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befClass" time="0.106">
+    <failure message="org.openqa.selenium.remote.service.DriverCommandExecutor cannot be cast to org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor" type="java.lang.ClassCastException">java.lang.ClassCastException: org.openqa.selenium.remote.service.DriverCommandExecutor cannot be cast to org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:325)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createFirefoxDriver(WebDriverFactory.java:191)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:50)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:240)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:113)
+	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:136)
+	at com.codeborne.selenide.impl.Navigator.navigateToAbsoluteUrl(Navigator.java:69)
+	at com.codeborne.selenide.impl.Navigator.open(Navigator.java:32)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:82)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:56)
+	at com.selenium.test.testng.tests.Checks.TestProcedures.autorisationUser(TestProcedures.java:98)
+	at com.selenium.test.testng.tests.Checks.TestViewObjectApproved.befClass(TestViewObjectApproved.java:19)
+</failure>
+    <system-err>��� 03, 2017 4:44:50 PM com.codeborne.selenide.webdriver.WebDriverFactory createFirefoxDriver
+INFO: Firefox 48+ is currently not supported by Selenium Firefox driver. Use browser=marionette with geckodriver, when using it.
+</system-err>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.106">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewBoardStoneApproved" time="0.106">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.106">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewBuildingApproved" time="0.106">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.106">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewCarriagewayApproved" time="0.106">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.106">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewContainerApproved" time="0.106">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.107">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewDtsApproved" time="0.107">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewEnvironmentProtectionApproved" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewFencingApproved" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewFlowersGardenApproved" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewFunctionalityApproved" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewImprovementTerritoryApproved" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewLamppostsApproved" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewLawnApproved" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewLawnsApproved" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewLittleFormApproved" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewMafApproved" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewManholesApproved" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewMarginApproved" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewODHApproved" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewOtherEnginConstructApproved" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewOtherFlatBuildingApproved" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewPlanarStructureApproved" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewPpiApproved" time="0.108">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.109">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewReliefApproved" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewRoadSignsApproved" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewRoadmarkApproved" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewShrubsApproved" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewSidewalksApproved" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewStopsApproved" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewStoragePlaceApproved" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewTechPlaceApproved" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewTrafficLightApproved" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewTramRailsApproved" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewTreesApproved" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="befTest" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectApproved" name="viewTrolleybusContNetworkApproved" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.TestLogin" name="Test111" time="0.12">
+    <failure message="org.openqa.selenium.remote.service.DriverCommandExecutor cannot be cast to org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor" type="java.lang.ClassCastException">java.lang.ClassCastException: org.openqa.selenium.remote.service.DriverCommandExecutor cannot be cast to org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:325)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createFirefoxDriver(WebDriverFactory.java:191)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:50)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:240)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:113)
+	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:136)
+	at com.codeborne.selenide.impl.Navigator.navigateToAbsoluteUrl(Navigator.java:69)
+	at com.codeborne.selenide.impl.Navigator.open(Navigator.java:32)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:82)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:56)
+	at com.selenium.test.testng.tests.odsTestReestr.TestProcedures.openLoginPage(TestProcedures.java:88)
+	at com.selenium.test.testng.tests.TestLogin.Test111(TestLogin.java:18)
+</failure>
+    <system-err>��� 03, 2017 4:44:50 PM com.codeborne.selenide.webdriver.WebDriverFactory createFirefoxDriver
+INFO: Firefox 48+ is currently not supported by Selenium Firefox driver. Use browser=marionette with geckodriver, when using it.
+</system-err>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.TestLogin" name="trueLoginPassword" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.TestLogin" name="wrongLoginPassword" time="0.12">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befClass" time="0.121">
+    <failure message="org.openqa.selenium.remote.service.DriverCommandExecutor cannot be cast to org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor" type="java.lang.ClassCastException">java.lang.ClassCastException: org.openqa.selenium.remote.service.DriverCommandExecutor cannot be cast to org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor
+	at org.openqa.selenium.firefox.FirefoxDriver.startClient(FirefoxDriver.java:325)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:119)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:218)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:125)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:150)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createFirefoxDriver(WebDriverFactory.java:191)
+	at com.codeborne.selenide.webdriver.WebDriverFactory.createWebDriver(WebDriverFactory.java:50)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.createDriver(WebDriverThreadLocalContainer.java:240)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.getAndCheckWebDriver(WebDriverThreadLocalContainer.java:113)
+	at com.codeborne.selenide.WebDriverRunner.getAndCheckWebDriver(WebDriverRunner.java:136)
+	at com.codeborne.selenide.impl.Navigator.navigateToAbsoluteUrl(Navigator.java:69)
+	at com.codeborne.selenide.impl.Navigator.open(Navigator.java:32)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:82)
+	at com.codeborne.selenide.Selenide.open(Selenide.java:56)
+	at com.selenium.test.testng.tests.Checks.TestProcedures.autorisationUser(TestProcedures.java:98)
+	at com.selenium.test.testng.tests.Checks.TestViewObjectProject.befClass(TestViewObjectProject.java:19)
+</failure>
+    <system-err>��� 03, 2017 4:44:50 PM com.codeborne.selenide.webdriver.WebDriverFactory createFirefoxDriver
+INFO: Firefox 48+ is currently not supported by Selenium Firefox driver. Use browser=marionette with geckodriver, when using it.
+</system-err>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.121">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewBoardStoneProject" time="0.121">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.121">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewBuildingProject" time="0.121">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.121">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewCarriagewayProject" time="0.122">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.122">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewContainerProject" time="0.122">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.122">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewDtsProject" time="0.122">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.122">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewEnvironmentProtectionProject" time="0.122">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewFencingProject" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewFlowersGardenProject" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewFunctionalityProject" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewImprovementTerritoryProject" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewLamppostsProject" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewLawnProject" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewLawnsProject" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewLittleFormProject" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewMafProject" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewManholesProject" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewMarginProject" time="0.144">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.145">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewODHProject" time="0.145">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.145">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewOtherEnginConstructProject" time="0.145">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.145">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewOtherFlatBuildingProject" time="0.145">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.153">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewPlanarStructureProject" time="0.153">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.153">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewPpiProject" time="0.153">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.153">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewReliefProject" time="0.153">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.154">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewRoadSignsProject" time="0.154">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.249">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewRoadmarkProject" time="0.249">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.249">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewShrubsProject" time="0.249">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.25">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewSidewalksProject" time="0.25">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.25">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewStopsProject" time="0.25">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.25">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewStoragePlaceProject" time="0.25">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.25">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewTechPlaceProject" time="0.25">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.25">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewTrafficLightProject" time="0.25">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.25">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewTramRailsProject" time="0.25">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.25">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewTreesProject" time="0.25">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="befTest" time="0.25">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.selenium.test.testng.tests.Checks.TestViewObjectProject" name="viewTrolleybusContNetworkProject" time="0.25">
+    <skipped/>
+  </testcase>
+</testsuite>

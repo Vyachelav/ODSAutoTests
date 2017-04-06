@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.selenium.test.testng.tests.SimpleTest">
+        <methods>
+          <include name="testFillGoogleForm"/>
+        </methods>
+      </class> <!-- com.selenium.test.testng.tests.SimpleTest -->
+      <class name="com.selenium.test.testng.tests.Checks.TestNullParams">
+        <methods>
+          <include name="dtsObject"/>
+          <include name="improvementTerritory1"/>
+          <include name="roadmarkObject"/>
+          <include name="boardStone"/>
+          <include name="stopsObject"/>
+          <include name="fencingObject"/>
+          <include name="functionalityObject"/>
+          <include name="odhObject1"/>
+          <include name="ppiObject"/>
+          <include name="planarStructure"/>
+          <include name="befClass"/>
+          <include name="sidewalksObject"/>
+          <include name="manholesObject"/>
+          <include name="otherFlatBuilding"/>
+          <include name="treesObject"/>
+          <include name="befTest"/>
+          <include name="lawnsObject"/>
+          <include name="littleForm"/>
+          <include name="trafficLight"/>
+          <include name="shrubsObject"/>
+          <include name="buildingObject"/>
+          <include name="marginObject"/>
+          <include name="storagePlace"/>
+          <include name="roadSigns_10"/>
+          <include name="containerObject"/>
+          <include name="mafObject"/>
+          <include name="tramRails"/>
+          <include name="otherEnginConstruct"/>
+          <include name="reliefObject"/>
+          <include name="lampPosts"/>
+          <include name="environmentProtection"/>
+          <include name="trolleybusContNetwork"/>
+          <include name="carriagewayObject"/>
+        </methods>
+      </class> <!-- com.selenium.test.testng.tests.Checks.TestNullParams -->
+      <class name="com.selenium.test.testng.tests.PageObjectTest">
+        <methods>
+          <include name="testSearch"/>
+        </methods>
+      </class> <!-- com.selenium.test.testng.tests.PageObjectTest -->
+      <class name="com.selenium.test.testng.tests.TestLogin">
+        <methods>
+          <include name="wrongLoginPassword"/>
+          <include name="Test111"/>
+          <include name="trueLoginPassword"/>
+        </methods>
+      </class> <!-- com.selenium.test.testng.tests.TestLogin -->
+      <class name="com.selenium.test.testng.tests.Checks.TestRequiredParameters">
+        <methods>
+          <include name="requiredParametersMargin"/>
+          <include name="requiredParametersFlowersGarden"/>
+          <include name="requiredParametersPpi"/>
+          <include name="requiredParametersLampposts"/>
+          <include name="requiredParametersODH"/>
+          <include name="befTest"/>
+          <include name="requiredParametersTrafficLight"/>
+          <include name="requiredParametersStops"/>
+          <include name="requiredParametersLawns"/>
+          <include name="requiredParametersOtherEnginConstruct"/>
+          <include name="requiredParametersPlanarStructure"/>
+          <include name="requiredParametersManholes"/>
+          <include name="requiredParametersTram_rails"/>
+          <include name="requiredParametersFencing"/>
+          <include name="requiredParametersSidewalks"/>
+          <include name="requiredParametersTrees"/>
+          <include name="requiredParametersRoadMark"/>
+          <include name="requiredParametersMAF"/>
+          <include name="requiredParametersShrubs"/>
+          <include name="improvementTerritory1"/>
+          <include name="requiredParametersFunctionality"/>
+          <include name="requiredParametersTechPlace"/>
+          <include name="requiredParametersLawn"/>
+          <include name="requiredParametersCarriageway"/>
+          <include name="requiredParametersRelief"/>
+          <include name="requiredBoardStone"/>
+          <include name="requiredParametersOtherFlatBuilding"/>
+          <include name="requiredParametersRoadSigns"/>
+          <include name="requiredParametersDts"/>
+          <include name="requiredParametersBuilding"/>
+          <include name="requiredParametersContainer"/>
+          <include name="requiredParametersEnvironmentProtection"/>
+          <include name="requiredParametersTrolleybusContNetwork"/>
+          <include name="clearCache"/>
+          <include name="requiredParametersLittleForm"/>
+          <include name="befClass"/>
+          <include name="requiredParametersStoragePlace"/>
+        </methods>
+      </class> <!-- com.selenium.test.testng.tests.Checks.TestRequiredParameters -->
+      <class name="com.selenium.test.testng.tests.Checks.TestViewObjectApproved">
+        <methods>
+          <include name="viewContainerApproved"/>
+          <include name="viewTreesApproved"/>
+          <include name="viewODHApproved"/>
+          <include name="viewOtherFlatBuildingApproved"/>
+          <include name="viewPpiApproved"/>
+          <include name="viewShrubsApproved"/>
+          <include name="viewStoragePlaceApproved"/>
+          <include name="viewTechPlaceApproved"/>
+          <include name="viewCarriagewayApproved"/>
+          <include name="viewLawnsApproved"/>
+          <include name="viewReliefApproved"/>
+          <include name="viewLamppostsApproved"/>
+          <include name="viewMafApproved"/>
+          <include name="viewRoadSignsApproved"/>
+          <include name="viewFlowersGardenApproved"/>
+          <include name="befClass"/>
+          <include name="viewDtsApproved"/>
+          <include name="viewPlanarStructureApproved"/>
+          <include name="viewFunctionalityApproved"/>
+          <include name="viewOtherEnginConstructApproved"/>
+          <include name="viewFencingApproved"/>
+          <include name="viewManholesApproved"/>
+          <include name="viewTramRailsApproved"/>
+          <include name="viewTrolleybusContNetworkApproved"/>
+          <include name="befTest"/>
+          <include name="viewBoardStoneApproved"/>
+          <include name="viewBuildingApproved"/>
+          <include name="viewMarginApproved"/>
+          <include name="viewLawnApproved"/>
+          <include name="viewImprovementTerritoryApproved"/>
+          <include name="viewEnvironmentProtectionApproved"/>
+          <include name="viewRoadmarkApproved"/>
+          <include name="viewTrafficLightApproved"/>
+          <include name="viewSidewalksApproved"/>
+          <include name="viewStopsApproved"/>
+          <include name="viewLittleFormApproved"/>
+        </methods>
+      </class> <!-- com.selenium.test.testng.tests.Checks.TestViewObjectApproved -->
+      <class name="com.selenium.test.testng.tests.Checks.TestViewObjectProject">
+        <methods>
+          <include name="viewLawnProject"/>
+          <include name="viewRoadmarkProject"/>
+          <include name="viewLittleFormProject"/>
+          <include name="viewTrolleybusContNetworkProject"/>
+          <include name="viewFunctionalityProject"/>
+          <include name="viewStoragePlaceProject"/>
+          <include name="befClass"/>
+          <include name="viewRoadSignsProject"/>
+          <include name="viewMafProject"/>
+          <include name="viewSidewalksProject"/>
+          <include name="viewOtherFlatBuildingProject"/>
+          <include name="viewPpiProject"/>
+          <include name="viewReliefProject"/>
+          <include name="viewManholesProject"/>
+          <include name="viewTechPlaceProject"/>
+          <include name="viewMarginProject"/>
+          <include name="viewTramRailsProject"/>
+          <include name="viewLamppostsProject"/>
+          <include name="viewTreesProject"/>
+          <include name="viewFencingProject"/>
+          <include name="viewPlanarStructureProject"/>
+          <include name="viewBuildingProject"/>
+          <include name="viewImprovementTerritoryProject"/>
+          <include name="viewEnvironmentProtectionProject"/>
+          <include name="viewContainerProject"/>
+          <include name="viewDtsProject"/>
+          <include name="viewBoardStoneProject"/>
+          <include name="viewLawnsProject"/>
+          <include name="befTest"/>
+          <include name="viewTrafficLightProject"/>
+          <include name="viewFlowersGardenProject"/>
+          <include name="viewShrubsProject"/>
+          <include name="viewCarriagewayProject"/>
+          <include name="viewOtherEnginConstructProject"/>
+          <include name="viewStopsProject"/>
+          <include name="viewODHProject"/>
+        </methods>
+      </class> <!-- com.selenium.test.testng.tests.Checks.TestViewObjectProject -->
+      <class name="com.selenium.test.testng.tests.Checks.TestAllFields">
+        <methods>
+          <include name="befTest"/>
+          <include name="Improvement_Territory_All_Fields"/>
+          <include name="befClass"/>
+        </methods>
+      </class> <!-- com.selenium.test.testng.tests.Checks.TestAllFields -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
