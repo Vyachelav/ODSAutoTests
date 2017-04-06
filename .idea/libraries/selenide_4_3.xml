@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="selenide-4.3">
+    <CLASSES>
+      <root url="jar://D:/Libs/selenide-4.3.jar!/" />
+      <root url="jar://D:/Libs/testng-6.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="selenium-java-3.0">
+    <CLASSES>
+      <root url="jar://D:/Libs/selenide-4.3.jar!/" />
+      <root url="jar://D:/Libs/testng-6.0.1.jar!/" />
+      <root url="file://D:/Libs/selenium-java-3.0.1" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://D:/Libs/selenium-java-3.0.1" recursive="false" />
+  </library>
+</component>
